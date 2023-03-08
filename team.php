@@ -28,8 +28,8 @@
     </head>
 
     <body>
-        <!-- Top Bar Start -->
-        <div class="top-bar d-none d-md-block">
+         <!-- Top Bar Start -->
+         <div class="top-bar d-none d-md-block">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6">
@@ -49,7 +49,7 @@
                             <div class="social">
                                 <a href=""><i class="fab fa-twitter"></i></a>
                                 <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i><iconify-icon icon="bi:tiktok" style="color: white;" width="19" height="19"></iconify-icon></i></a>
+                                <a href=""><i class="fab fa-youtube"></i></a>
                                 <a href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
@@ -69,25 +69,22 @@
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href = "service.html" class="nav-item nav-link">Service</a>
-                        <a href="price.html" class="nav-item nav-link">Price</a>
-                        <a href="team.html" class="nav-item nav-link">Barber</a>
-                        <a href="portfolio.html" class="nav-item nav-link">Gallery</a>
+                        <a href="index.php" class="nav-item nav-link active">Home</a>
+                        <a href="price.php" class="nav-item nav-link">Price</a>
+                        <a href="team.php" class="nav-item nav-link">Barber</a>
+                        <a href="portfolio.php" class="nav-item nav-link">Gallery</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Acount</a>
                             <div class="dropdown-menu">
-                                <a href="blog.html" class="dropdown-item">Login</a>
-                                <a href="single.html" class="dropdown-item">Booking</a>
+                                <a href="./php/login.php" class="dropdown-item">Login</a>
+                                <a href="./php/booking.php" class="dropdown-item">Booking</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Nav Bar End -->
-
 
         <!-- Page Header Start -->
         <div class="page-header">

@@ -25,19 +25,19 @@
     </head>
 
     <body>
-        <!-- Top Bar Start -->
-        <div class="top-bar d-none d-md-block">
+         <!-- Top Bar Start -->
+         <div class="top-bar d-none d-md-block">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="top-bar-left">
                             <div class="text">
-                                <h2>8:00 - 9:00</h2>
-                                <p>Opening Hour Mon - Fri</p>
+                                <h2>8:00 - 20:00</h2>
+                                <p>Buka Setiap Hari</p>
                             </div>
                             <div class="text">
-                                <h2>+123 456 7890</h2>
-                                <p>Call Us For Appointment</p>
+                                <h2>+62 892134678923</h2>
+                                <p>Hubungi kami untuk info lebih lanjut</p>
                             </div>
                         </div>
                     </div>
@@ -46,7 +46,7 @@
                             <div class="social">
                                 <a href=""><i class="fab fa-twitter"></i></a>
                                 <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-youtube"></i></a>
                                 <a href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
@@ -59,26 +59,25 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">Iron<span>Style</span></a>
+                <a href="index.html" class="navbar-brand"><span>Iron </span>Style</a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="service.html" class="nav-item nav-link">Service</a>
-                        <a href="price.html" class="nav-item nav-link">Price</a>
-                        <a href="team.html" class="nav-item nav-link">Barber</a>
-                        <a href="portfolio.html" class="nav-item nav-link">Gallery</a>
+                        <a href="index.php" class="nav-item nav-link active">Home</a>
+                        <a href="price.php" class="nav-item nav-link">Price</a>
+                        <a href="team.php" class="nav-item nav-link">Barber</a>
+                        <a href="portfolio.php" class="nav-item nav-link">Gallery</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Acount</a>
                             <div class="dropdown-menu">
-                                <a href="blog.html" class="dropdown-item">Login</a>
-                                <a href="single.html" class="dropdown-item">Booking</a>
+                                <a href="./php/login.php" class="dropdown-item">Login</a>
+                                <a href="./php/booking.php" class="dropdown-item">Booking</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </div>
@@ -91,11 +90,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Contact</h2>
+                        <h2>Price</h2>
                     </div>
                     <div class="col-12">
-                        <a href="">Home</a>
-                        <a href="">Contact</a>
+                        <a href="index.html">Home</a>
+                        <a href="">Price</a>
                     </div>
                 </div>
             </div>
@@ -103,47 +102,64 @@
         <!-- Page Header End -->
 
 
-        <!-- Contact Start -->
-        <div class="section-header text-center" style="margin-top: 90px;">
-            <p>Get In Touch</p>
-            <h2>If You Have Any Query, Please Contact Us</h2>
-        </div>
-        <div class="contact" style="margin-bottom: 90px;">
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-4"></div>
-                        <div class="col-md-8">
-                            <div class="contact-form">
-                                <div id="success"></div>
-                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div>
-                                        <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
-                                    </div>
-                                </form>
+        <!-- Pricing Start -->
+        <div class="price">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Harga Terbaik hanya ada di Kami!</p>
+                    <h2>Menyediakan Pelayanan Sesuai dengan Kualitas Harga</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="price-item">
+                            <div class="price-img">
+                                <img src="img/portfolio-4.jpg" alt="Image">
                             </div>
+                            <div class="price-text">
+                                <h2>Pangkas Rambut</h2>
+                                <h3>Mulai dari Rp. 40.000</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="price-item">
+                            <div class="price-img">
+                                <img src="img/Cat rambut.jpg" alt="Image">
+                            </div>
+                            <div class="price-text">
+                                <h2>Cat Rambut</h2>
+                                <h3> Mulai dari Rp. 185.000</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="price-item">
+                            <div class="price-img">
+                                <img src="img/creambath.jpg" alt="Image">
+                            </div>
+                            <div class="price-text">
+                                <h2>Creambath</h2>
+                                <h3>Mulai dari Rp. 190.000</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="price-item">
+                            <div class="price-img">
+                                <img src="img/color and wash.jpg" alt="Image">
+                            </div>
+                            <div class="price-text">
+                                <h2>Cool Pomade</h2>
+                                <h3>Mulai dari Rp. 50.000</h3>
+                            </div>
+                        </div>
+                    </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Contact End -->
+        <!-- Pricing End -->
 
 
         <!-- Footer Start -->
@@ -154,16 +170,15 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="footer-contact">
-                                    <h2>Salon Address</h2>
-                                    <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                                    <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                                    <p><i class="fa fa-envelope"></i>info@example.com</p>
+                                    <h2>Lokasi</h2>
+                                    <p><i class="fa fa-map-marker-alt"></i>Jl. Mawar RT 001 / RW 01, Kel. Jatinegara, Kec Cakung, Jakarta Timur</p>
+                                    <p><i class="fa fa-phone-alt"></i>+62 892134678923/p>
+                                    <p><i class="fa fa-envelope"></i>Email : ironstyle@gmail.com</p>
                                     <div class="footer-social">
                                         <a href=""><i class="fab fa-twitter"></i></a>
                                         <a href=""><i class="fab fa-facebook-f"></i></a>
                                         <a href=""><i class="fab fa-youtube"></i></a>
                                         <a href=""><i class="fab fa-instagram"></i></a>
-                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -174,21 +189,11 @@
                                     <a href="">Privacy policy</a>
                                     <a href="">Cookies</a>
                                     <a href="">Help</a>
-                                    <a href="">FQAs</a>
+                                    <a href="">FAQs</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5">
-                        <div class="footer-newsletter">
-                            <h2>Newsletter</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu placerat rhoncus, lorem quam iaculis felis, sed lacus neque id eros.
-                            </p>
-                            <div class="form">
-                                <input class="form-control" placeholder="Email goes here">
-                                <button class="btn">Submit</button>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -196,10 +201,7 @@
             <div class="container copyright">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
-                    </div>
-                    <div class="col-md-6">
-                        <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                        <p>&copy; <a href="#">Iron Style</a>, All Right Reserved.</p>
                     </div>
                 </div>
             </div>

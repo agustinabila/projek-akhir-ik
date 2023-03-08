@@ -25,19 +25,19 @@
     </head>
 
     <body>
-        <!-- Top Bar Start -->
-        <div class="top-bar d-none d-md-block">
+         <!-- Top Bar Start -->
+         <div class="top-bar d-none d-md-block">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="top-bar-left">
                             <div class="text">
-                                <h2>8:00 - 9:00</h2>
-                                <p>Opening Hour Mon - Fri</p>
+                                <h2>8:00 - 20:00</h2>
+                                <p>Buka Setiap Hari</p>
                             </div>
                             <div class="text">
                                 <h2>+62 892134678923</h2>
-                                <p>Call Us For Appointment</p>
+                                <p>Hubungi kami untuk info lebih lanjut</p>
                             </div>
                         </div>
                     </div>
@@ -46,7 +46,7 @@
                             <div class="social">
                                 <a href=""><i class="fab fa-twitter"></i></a>
                                 <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-youtube"></i></a>
                                 <a href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
@@ -59,26 +59,24 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">Iron<span>Style</span></a>
+                <a href="index.html" class="navbar-brand"><span>Iron </span>Style</a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="service.html" class="nav-item nav-link active">Service</a>
-                        <a href="price.html" class="nav-item nav-link">Price</a>
-                        <a href="team.html" class="nav-item nav-link">Barber</a>
-                        <a href="portfolio.html" class="nav-item nav-link">Gallery</a>
+                        <a href="index.php" class="nav-item nav-link active">Home</a>
+                        <a href="price.php" class="nav-item nav-link">Price</a>
+                        <a href="team.php" class="nav-item nav-link">Barber</a>
+                        <a href="portfolio.php" class="nav-item nav-link">Gallery</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Acount</a>
                             <div class="dropdown-menu">
-                                <a href="blog.html" class="dropdown-item">Blog Page</a>
-                                <a href="single.html" class="dropdown-item">Single Page</a>
+                                <a href="./php/login.php" class="dropdown-item">Login</a>
+                                <a href="./php/booking.php" class="dropdown-item">Booking</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </div>
@@ -91,11 +89,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Service</h2>
+                        <h2>Gallery</h2>
                     </div>
                     <div class="col-12">
-                        <a href="">Home</a>
-                        <a href="">Service</a>
+                        <a href="index.html">Home</a>
+                        <a href="portfolio.html">Gallery</a>
                     </div>
                 </div>
             </div>
@@ -103,54 +101,70 @@
         <!-- Page Header End -->
 
 
-        <!-- Service Start -->
-        <div class="service">
+        <!-- Portfolio Start -->
+        <div class="portfolio">
             <div class="container">
                 <div class="section-header text-center">
-                    <p>Our Salon Services</p>
-                    <h2>Best Salon and Barber Services for You</h2>
+                    <p>Barber Image Gallery</p>
+                    <h2>Some Images From Our Barber Gallery</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/hair cut.jpg" alt="Image">
-                            </div>
-                            <h3>Hair Cut</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                            </p>
-                            <a class="btn" href="">Learn More</a>
+                    <div class="col-12">
+                        <ul id="portfolio-flters">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".first">Hair Cut</li>
+                            <li data-filter=".second">Beard Style</li>
+                            <li data-filter=".third">Color & Wash</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row portfolio-container">
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item first">
+                        <div class="portfolio-wrap">
+                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                                <img src="img/portfolio-1.jpg" alt="Portfolio Image">
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/styling rambut.jpg" alt="Image">
-                            </div>
-                            <h3>Stayling hair</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                            </p>
-                            <a class="btn" href="">Learn More</a>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second">
+                        <div class="portfolio-wrap">
+                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                                <img src="img/portfolio-2.jpg" alt="Portfolio Image">
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/color and wash.jpg" alt="Image">
-                            </div>
-                            <h3>Color & Wash</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                            </p>
-                            <a class="btn" href="">Learn More</a>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third">
+                        <div class="portfolio-wrap">
+                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                                <img src="img/portfolio-3.jpg" alt="Portfolio Image">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item first">
+                        <div class="portfolio-wrap">
+                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                                <img src="img/portfolio-4.jpg" alt="Portfolio Image">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second">
+                        <div class="portfolio-wrap">
+                            <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
+                                <img src="img/portfolio-5.jpg" alt="Portfolio Image">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third">
+                        <div class="portfolio-wrap">
+                            <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
+                                <img src="img/portfolio-6.jpg" alt="Portfolio Image">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Service End -->
+        <!-- Portfolio Start -->
 
 
         <!-- Footer Start -->
