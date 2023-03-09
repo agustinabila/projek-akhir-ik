@@ -73,8 +73,13 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Acount</a>
                             <div class="dropdown-menu">
+<<<<<<< HEAD:portfolio.php
                                 <a href="./php/login.php" class="dropdown-item">Login</a>
                                 <a href="./php/booking.php" class="dropdown-item">Booking</a>
+=======
+                                <a href="blog.html" class="dropdown-item">Login</a>
+                                <a href="single.html" class="dropdown-item">Booking</a>
+>>>>>>> 5125a5173f5f09497cea269f56b408293e487c95:portfolio.html
                             </div>
                         </div>
                     </div>

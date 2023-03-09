@@ -73,8 +73,13 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Acount</a>
                             <div class="dropdown-menu">
+<<<<<<< HEAD:price.php
                                 <a href="./php/login.php" class="dropdown-item">Login</a>
                                 <a href="./php/booking.php" class="dropdown-item">Booking</a>
+=======
+                                <a href="blog.html" class="dropdown-item">Login</a>
+                                <a href="single.html" class="dropdown-item">Booking</a>
+>>>>>>> 5125a5173f5f09497cea269f56b408293e487c95:service.html
                             </div>
                         </div>
                     </div>
@@ -93,7 +98,11 @@
                     </div>
                     <div class="col-12">
                         <a href="index.html">Home</a>
+<<<<<<< HEAD:price.php
                         <a href="">Price</a>
+=======
+                        <a href="service.html">Service</a>
+>>>>>>> 5125a5173f5f09497cea269f56b408293e487c95:service.html
                     </div>
                 </div>
             </div>
@@ -118,6 +127,14 @@
                                 <h2>Pangkas Rambut</h2>
                                 <h3>Mulai dari Rp. 40.000</h3>
                             </div>
+<<<<<<< HEAD:price.php
+=======
+                            <h3>Hair Cut</h3>
+                            <p>
+                                Pengalaman memotong rambut dengan ramah dan hasil yang memuaskan bagi para customer
+                            </p>
+                            <a class="btn" href="">Learn More</a>
+>>>>>>> 5125a5173f5f09497cea269f56b408293e487c95:service.html
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6">
@@ -129,6 +146,14 @@
                                 <h2>Cat Rambut</h2>
                                 <h3> Mulai dari Rp. 185.000</h3>
                             </div>
+<<<<<<< HEAD:price.php
+=======
+                            <h3>Stayling hair</h3>
+                            <p>
+                                membuat gaya rambut customer menjadi lebih tertata rapi sesuai dengan kemauan customer
+                            </p>
+                            <a class="btn" href="">Learn More</a>
+>>>>>>> 5125a5173f5f09497cea269f56b408293e487c95:service.html
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6">
@@ -147,12 +172,20 @@
                             <div class="price-img">
                                 <img src="img/color and wash.jpg" alt="Image">
                             </div>
+<<<<<<< HEAD:price.php
                             <div class="price-text">
                                 <h2>Cool Pomade</h2>
                                 <h3>Mulai dari Rp. 50.000</h3>
                             </div>
                         </div>
                     </div>
+=======
+                            <h3>Color & Wash</h3>
+                            <p>
+                                memberikan warna pada rambut sesuai dengan permintaan customer dan dilengkapi dengan shampo yang dapat menjaga ketahanan rambut serta warnanya agar tidak rusak
+                            </p>
+                            <a class="btn" href="">Learn More</a>
+>>>>>>> 5125a5173f5f09497cea269f56b408293e487c95:service.html
                         </div>
                     </div>
                 </div>

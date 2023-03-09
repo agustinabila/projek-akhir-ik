@@ -194,6 +194,19 @@
                             </div>
                         </div>
                     </div>
+<<<<<<< HEAD:service.php
+=======
+                    <div class="col-lg-5">
+                        <div class="footer-newsletter">
+                            <h2>Newsletter</h2>
+                            <p>
+                                jika ingin mendapatkan informasi lebih jelas atau informasi terbaru, silahkan berikan email anda dibawah ini!
+                            </p>
+                            <div class="form">
+                                <input class="form-control" placeholder="Email goes here">
+                                <button class="btn">Submit</button>
+                            </div>
+>>>>>>> 5125a5173f5f09497cea269f56b408293e487c95:contact.html
                         </div>
                     </div>
                 </div>
