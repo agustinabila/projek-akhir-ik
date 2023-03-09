@@ -1,3 +1,13 @@
+<?php 
+    include "php/connect.php";
+
+    session_start();
+
+    if(!isset($_SESSION['username'])){
+        header ("php/login.php");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -76,9 +86,9 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Acount</a>
                             <div class="dropdown-menu">
-                                <a href="./php/login.php" class="dropdown-item">Login</a>
-                                <a href="./php/booking.php" class="dropdown-item">Booking</a>
-                                <a href="./php/account.php" class="dropdown-item">Akun Anda</a>
+                                <a href="php/login.php" class="dropdown-item">Login</a>
+                                <a href="php/account.php" class="dropdown-item">Akun Anda</a>
+                                <a href="php/booking.php" class="dropdown-item">Booking</a>
                             </div>
                         </div>
                     </div>

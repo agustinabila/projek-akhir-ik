@@ -6,13 +6,14 @@ error_reporting(0);
 
 session_start();
 
-if (isset($_SESSION['username'])) {
+if (isset($_SESSION['email'])) {
     header("Location: login.php");
 }
 
 if (isset($_POST['submit'])) {
     $username = $_POST['username'];
     $email = $_POST['email'];
+    $nama_user =$_POST['nama_user'];
     $password = $_POST['password'];
     $cpassword = $_POST['cpassword'];
 
@@ -20,12 +21,13 @@ if (isset($_POST['submit'])) {
     $sql = "SELECT * FROM data_user WHERE email='$email'";
     $result = mysqli_query($connect, $sql);
     if (!$result->num_rows > 0) {
-        $sql = "INSERT INTO data_user (username, email, password) VALUES ('$username', '$email', '$password')";
+        $sql = "INSERT INTO data_user (username, email, nama_user, password) VALUES ('$username', '$email', '$nama_user' '$password')";
         $result = mysqli_query($connect, $sql);
         if ($result) {
             echo "<script>alert('Selamat, registrasi berhasil!')</script>";
             $username = "";
             $email = "";
+            $nama_user = "";
             $_POST['password'] = "";
             $_POST['cpassword'] = "";
         } else {
@@ -62,6 +64,9 @@ echo "<script>alert('Password Tidak Sesuai')</script>";
             </div>
             <div class="input-group">
                 <input type="text" name="username" class="" placeholder="Username" value="<?php echo $username; ?>" required>
+            </div>
+            <div class="input-group">
+                <input type="text" name="nama_user" class="" placeholder="Nama" value="<?php echo $nama_user; ?>" required>
             </div>
             <div class="input-group">
                 <input type="password" name="password" class="" placeholder="Password" value="<?php echo $_POST['password'];?>" required>

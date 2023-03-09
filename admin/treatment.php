@@ -2,51 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Data User</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
-    <style type="text/css">
-        .wrapper{
-            width: 650px;
-            margin: 0 auto;
-        }
-        .page-header h2{
-            margin-top: 0;
-        }
-        table tr td:last-child a{
-            margin-right: 15px;
-        }
-    </style>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('[data-toggle="tooltip"]').tooltip();
-        });
-    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Treatment</title>
+
+    <!-- Link Boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-- Link Eksternal -->
+    <link rel="stylesheet" href="../css/admin.css">
+
+    <!-- Link Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <!-- Nav Bar Start -->
-    <div class="navbar navbar-expand-lg bg-dark navbar-dark">
-            <div class="container-fluid">
-                <a href="index.html" class="navbar-brand"><span>Iron </span>Style</a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto">
-                        <a href="main.php" class="nav-item nav-link active">Dashboard</a>
-                        <a href = "booking.php" class="nav-item nav-link">Data Booking</a>
-                        <a href="barber.php" class="nav-item nav-link">Data Karyawan</a>
-                        <a href="user.php" class="nav-item nav-link">Data User</a>
-                        <a href="treatment.php" class="nav-item nav-link">Data Treatment</a>
-                    </div>
-                </div>
-            </div>
+    <nav class="navbar bg-body-tertiary bg-dark navbar-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand" href="#">Halaman Admin</span>
+            <button type="button" class="btn btn-danger" value="logout.php"><a href="../index.php" style="text-decoration:none; color:white">Logout</a></button>
         </div>
-        <!-- Nav Bar End -->
+    </nav>
 
-    <!-- Record Data Start -->
+    <div class="content">
+        <div class="ver-navbar">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="main.php">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="booking.php">Data Booking</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="barber.php">Data Karyawan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="user.php">Data User</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="treatment.php">Data Treatment</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="title">
+                <!-- Record Data Start -->
     <div class="wrapper">
         <div class="container-fluid">
             <div class="row">
@@ -99,5 +101,8 @@
         </div>
     </div>
     <!-- Record Data End -->
+        </div>
+    </div>
+
 </body>
 </html>

@@ -1,0 +1,86 @@
+/* CSS Reset */
+*, 
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    padding: 0 0;
+}
+
+.navbar .container-fluid{
+    background-color: #17223B;
+    padding: 10px 20px;
+}
+
+.navbar-brand{
+    margin-left: 40px;
+    font-weight: 500px;
+    font-size: 40px;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+}
+
+.ver-navbar {
+    background: rgb(255,245,150);
+    background: linear-gradient(24deg, rgba(255,245,150,1) 30%, rgba(23,34,59,1) 89%);
+    width: 20%;
+    min-height: 1000px;
+    display: block;
+}
+
+
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+
+    
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 70px;
+    font-weight: 500;
+    font-size: larger;
+}
+.ver-navbar ul li a{
+    text-decoration:none;
+    color: white;
+    
+}
+.ver-navbar ul li a:hover{
+    text-decoration:none;
+    color: goldenrod;
+}
+.title{
+    background-color: #FBFFB1;
+    width: 80%;
+    min-height: 1000px;
+}
+
+.title .welcome{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.title .wrapper{
+    width: 800px;
+    margin: 50px auto;
+}
+.page-header h2{
+    margin-top: 0;
+}
+table tr td:last-child a{
+    margin-right: 15px;
+}

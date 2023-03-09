@@ -7,7 +7,7 @@ error_reporting(0);
 session_start();
 
 if (isset($_SESSION['nama_booking'])) {
-    header("Location: ../index.html");
+    header("Location:  ../index.php");
 }
 
 if (isset($_POST['submit'])) {
@@ -32,7 +32,7 @@ if (isset($_POST['submit'])) {
         } else {
             echo "<script>alert('Woops! Terjadi kesalahan.')</script>";
         }
-}
+    }
 }
 ?>
 
@@ -160,7 +160,7 @@ label{
         </select>
     </div>
     <div class="input-grup">
-        <label for="treatmet2">Treatment</label>
+        <label for="treatmet2">Treatment 2</label>
         <select name="treatment2" value="<?php echo $treatment2;?>" required>
             <option value="1">Hair Cutting</option>
             <option value="2">Hair Painting</option>
@@ -170,7 +170,7 @@ label{
     </div>
     <div class="input-grup">
         <label for="barber">Barber</label>
-        <select name="barber" value="<?php echo $barber;?>" required>
+        <select name="barber"  value="<?php echo $barber;?>" required>
             <option value="1">Anggara Wiyasa</option>
             <option value="2">Saraswati Ageng</option>
             <option value="3">Inggrid Pameel</option>
@@ -183,7 +183,6 @@ label{
     <div class="input-group">
         <button name="submit" class="btn" values="submit">Booking</button>
     </div>
-    <!-- <input type="submit" value="Submit"> -->
   </form>
 </div>
 </body>
